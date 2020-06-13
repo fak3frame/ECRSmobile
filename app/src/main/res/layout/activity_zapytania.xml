@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/carListLL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/topCarListLL"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#00BFFF"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/query_list_back_BT"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back_icon" />
+
+        <TextView
+            android:id="@+id/query_list_is_admin_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="idAdmin"
+            android:visibility="invisible" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/userCarListBT"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/user_icon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/centerBottomCarListLL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#64A9DF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/query_list_type_of_list_query_TV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:text="Twoje zapytania"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listaZapytanRV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="14"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/odswiezBT"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="2"
+            android:background="#36AA8F"
+            android:text="Odśwież zapytania" />
+        <Button
+            android:id="@+id/dodajZapytanieBT"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#5CCC1A"
+            android:layout_gravity="bottom"
+            android:text="Dodaj nowe zapytanie"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

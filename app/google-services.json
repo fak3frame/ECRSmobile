@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1062002252386",
+    "firebase_url": "https://ecrsmobile-wsei2.firebaseio.com",
+    "project_id": "ecrsmobile-wsei2",
+    "storage_bucket": "ecrsmobile-wsei2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062002252386:android:a38fe1e79421a3c706cf3b",
+        "android_client_info": {
+          "package_name": "pl.wsei.ecrsmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062002252386-0dqchvl83spadj6fqv8ep1ukoukidvsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcauSgq6efZ2h57yQHsVUpVdBZ1YBcehs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062002252386-0dqchvl83spadj6fqv8ep1ukoukidvsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

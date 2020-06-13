@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuLL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/topCarListLL"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#00BFFF"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/admin_panel_back_BT"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back_icon" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/admin_panel_user_BT"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/user_icon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/centerMenuLL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3"
+        android:orientation="vertical"
+        android:layout_weight="50"
+        >
+
+        <TextView
+            android:id="@+id/admin_panel_title_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#2196F3"
+            android:text="Admin Panel"
+            android:textAlignment="center"
+            android:textColor="#E32626"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/admin_panel_add_car_BT"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#2196F3"
+            android:text="Dodaj samochód"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/admin_panel_delete_all_cars_BT"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#2196F3"
+            android:text="Usuń wszystkie auta"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/admin_panel_add_cars_BT"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#2196F3"
+            android:text="Dodaj paczkę aut"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/admin_panel_add_delete_cars"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#2196F3"
+            android:text="Usuń wszystkie auta i \ndodaj nową paczkę"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
