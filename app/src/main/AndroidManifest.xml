@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CarImages"/>
+        <activity android:name=".CarImages" />
         <activity android:name=".MatchedCars" />
         <activity android:name=".AdminPanel" />
         <activity android:name=".DodawanieZapytania" />
@@ -26,7 +26,14 @@
         </activity>
         <activity android:name=".DodawanieSamochodow" />
         <activity android:name=".BazaSamochodow" />
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
+<!--
+ OSOBY PROJEKTU APLIKACJI
+ Kamil Zając
+ Krystian Witek
+ Przemysław Zalewski
+ Mateusz Wrzsień
+ -->

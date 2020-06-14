@@ -33,7 +33,7 @@ class CarImages : AppCompatActivity() {
             Picasso.get()
                 .load(carImageUrl)
                 //setup max resolution of image
-                .resize(10000,10000)
+                .resize(2000,2000)
                 //center image
                 .centerInside()
                 //send image to image view
